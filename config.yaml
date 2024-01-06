@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: sewamobiljogja # unique identifier
-    name: sewamobiljogja.biz.id
+    name: sewamobiljogja
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://sewamobiljogja.biz.id/' # URL to fetch
     method: GET # default=GET
@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: tantzswasty.my.id # unique identifier
-    name: tantzswasty.my.id
+    name: tantzswasty
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://tantzswasty.my.id/' # URL to fetch
     method: GET # default=GET
