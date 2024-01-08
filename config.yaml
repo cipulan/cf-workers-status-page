@@ -15,10 +15,19 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: sewamobiljogja # unique identifier
-    name: sewamobiljogja
-    description: 'You write code. They handle the rest.' # default=empty
+  - id: SewaMobilJogja # unique identifier
+    name: SewaMobilJogja
+    description: 'Sewa Mobil Jogja' # default=empty
     url: 'https://sewamobiljogja.biz.id/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: BlogPingsutCom # unique identifier
+    name: BlogPingsutCom
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://blog.pingsut.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
