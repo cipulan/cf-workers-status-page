@@ -33,6 +33,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
+  - id: Yudisium # unique identifier
+    name: Yudisium
+    description: 'Yudisium UT' # default=empty
+    url: 'https://aksi.ut.ac.id/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
   # - id: tantzswasty.my.id # unique identifier
   #   name: tantzswasty
   #   description: 'You write code. They handle the rest.' # default=empty
