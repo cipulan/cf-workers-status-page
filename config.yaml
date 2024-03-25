@@ -33,6 +33,51 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
+  - id: PingsutCom # unique identifier
+    name: PingsutCom
+    description: 'Pingsut COM' # default=empty
+    url: 'https://pingsut.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: ProxyIDorID # unique identifier
+    name: ProxyIDorID
+    description: 'Web Proxy ID' # default=empty
+    url: 'https://proxy.id.or.id' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: HotmailIDorID # unique identifier
+    name: HotmailIDorID
+    description: 'Hotmail ID' # default=empty
+    url: 'https://hotmail.id.or.id' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: YahooIDorID # unique identifier
+    name: YahooIDorID
+    description: 'Yahoo ID' # default=empty
+    url: 'https://yahoo.id.or.id' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: YMailIDorID # unique identifier
+    name: YMailIDorID
+    description: 'YMail ID' # default=empty
+    url: 'https://ymail.id.or.id' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
 #  - id: Yudisium # unique identifier
 #    name: Yudisium
 #    description: 'Yudisium UT' # default=empty
