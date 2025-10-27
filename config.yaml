@@ -33,15 +33,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: PingsutCom # unique identifier
-    name: PingsutCom
-    description: 'Pingsut COM' # default=empty
-    url: 'https://pingsut.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
 
+  # - id: PingsutCom # unique identifier
+  #   name: PingsutCom
+  #   description: 'Pingsut COM' # default=empty
+  #   url: 'https://pingsut.com/' # URL to fetch
+  #   method: GET # default=GET
+  #   expectStatus: 200 # operational status, default=200
+  #   followRedirect: false # should fetch follow redirects, default=false
+  #   linkable: false # allows the title to be a link, default=true
 
   # - id: ProxyIDorID # unique identifier
   #   name: ProxyIDorID
